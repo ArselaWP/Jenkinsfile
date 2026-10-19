@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'GANTI_DENGAN_USERNAME_DOCKERHUB/hello-world-docker'
+       bat 'docker build -t arselawp/hello-world-docker .'
     }
 
     stages {
