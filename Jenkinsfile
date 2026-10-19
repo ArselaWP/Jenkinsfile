@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'arselawp/flask-hello-world'
+        IMAGE_NAME = 'mustikaningrum/flask-hello-world'
         REGISTRY_CREDENTIALS = 'dockerhub-credentials'
     }
 
